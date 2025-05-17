@@ -1,0 +1,6 @@
+streamlit
+agno
+python-dotenv
+yfinance
+duckduckgo-search
+requests
