@@ -99,10 +99,6 @@ def render_sidebar():
             os.environ["SUTRA_API_KEY"] = sutra_api_key
         else:
             st.sidebar.warning("Please enter your Sutra API key to use the app")
-            
-        # Search Settings
-        st.markdown("#### Search Settings")
-        use_search = st.checkbox("Use DuckDuckGo search for recent information", value=True, key="use_search")
         
         st.divider()
         
