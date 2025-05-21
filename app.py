@@ -83,7 +83,7 @@ SAMPLE_QUESTIONS = [
 def render_sidebar():
     with st.sidebar:
         # Add Sutra logo
-        st.image("https://framerusercontent.com/images/3Ca34Pogzn9I3a7uTsNSlfs9Bdk.png", use_column_width=True)
+        st.image("https://framerusercontent.com/images/3Ca34Pogzn9I3a7uTsNSlfs9Bdk.png", use_container_width=True)
         st.header("Multilingual News Summarizer")
         st.divider()
         
