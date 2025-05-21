@@ -204,7 +204,7 @@ def main():
                         
                         if search_results and len(search_results) > 0:
                             # Show success message
-                            st.success(f"Found {len(search_results)} recent results from DuckDuckGo")
+                            # st.success(f"Found {len(search_results)} recent results from DuckDuckGo")
                             
                             # Extract relevant information from search results
                             recent_info = "\n\nRecent information from search results:\n"
