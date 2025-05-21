@@ -4,3 +4,4 @@ python-dotenv
 yfinance
 duckduckgo-search
 requests
+openai
