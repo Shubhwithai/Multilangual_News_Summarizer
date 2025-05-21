@@ -131,7 +131,6 @@ def main():
         page_icon="🇰"
     )
     
-    # No custom styling needed
     
     # Render sidebar
     show_tool_calls, use_search = render_sidebar()
